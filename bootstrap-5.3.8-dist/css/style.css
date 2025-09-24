@@ -1,4 +1,19 @@
 /* css bruno */
+/*
+#6c788e : Cinza bem escuro azulado
+#a6aec1 : Cinza escuro azulado
+#cfd5e1 : Cinza azulado
+#ededf2 : Cinza claro azulado
+#fcfdff : Branco um pouco mais escuro
+*/
+.banner{
+    background-color:#cfd5e1 ;
+
+}
+
+.banner-palavras{
+    color: #fcfdff;
+}
 
 .LogoCurriculo{
     width: 5%;
