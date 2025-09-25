@@ -29,6 +29,10 @@ textos
 
 .banner-palavras{
     color: #fcfdff;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .LogoCurriculo{
@@ -40,11 +44,13 @@ textos
 }
 
 .alinha{
-    margin-top: 2%;
+   padding: 2%;
 }
+
 .divisoes{
     padding: 3%;
-    text-align: center;
+    width: 90%;
+    margin: 0 auto
 }
 
 .titulos{
@@ -52,6 +58,7 @@ textos
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    padding: 1%;
 }
 
 .subtitulo{
@@ -71,4 +78,8 @@ textos
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+}
+
+.destaque{
+    font-weight: bold;
 }
