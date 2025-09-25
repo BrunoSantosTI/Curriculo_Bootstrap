@@ -42,12 +42,26 @@ textos
 .alinha{
     margin-top: 2%;
 }
+.divisoes{
+    padding: 3%;
+    text-align: center;
+}
 
 .titulos{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 900;
-    font-style: normal; */
+    font-style: normal;
+}
+
+.subtitulo{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 431;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: #000000a8;
 }
 
 .textos{
