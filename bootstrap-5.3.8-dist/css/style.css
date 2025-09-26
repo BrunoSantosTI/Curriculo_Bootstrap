@@ -116,6 +116,11 @@ textos
     box-shadow: 0 8px 16px #09092d75; 
 }
 
+.responsividade{
+    display: flex;
+    flex-direction: row;
+}
+
 footer{
     padding: 2%;
     color: #fcfdff;
@@ -127,8 +132,8 @@ footer{
     box-shadow: 6px 6px 19px #000000;
 }
 
-@media(max-width:1000px){
-    #sobre{
+@media(min-width:1000px){
+    .responsividade{
         display: flex;
         flex-direction: column;
     }
