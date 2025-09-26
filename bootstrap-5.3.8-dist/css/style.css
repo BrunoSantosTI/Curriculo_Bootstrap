@@ -92,8 +92,28 @@ textos
     box-shadow: 6px 6px 19px #000000;
 }
 
-#caracteristicas h2{
+#caracteristicas h2, #hobbies h2{
     text-align: center;
+}
+
+
+
+.img-hobbies{
+    width: 8em;
+    margin: 0 auto; 
+}
+
+.img-alinha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.img-alinha:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px #09092d75; 
 }
 
 footer{
