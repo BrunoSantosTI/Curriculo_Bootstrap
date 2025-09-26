@@ -23,11 +23,11 @@ textos
         "wdth" 100;
 */
 
-.banner{ 
+.menu{ 
     background-color:#303030 ;
 }
 
-.banner-palavras{
+.menu-palavras{
     color: #fcfdff;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -45,6 +45,10 @@ textos
 
 .alinha{
    padding: 2%;
+}
+
+.alinha-texto{
+    text-align: justify;
 }
 
 .divisoes{
@@ -82,4 +86,30 @@ textos
 
 .destaque{
     font-weight: bold;
+}
+
+.borda-sombra{
+    box-shadow: 6px 6px 19px #000000;
+}
+
+#caracteristicas h2{
+    text-align: center;
+}
+
+footer{
+    padding: 2%;
+    color: #fcfdff;
+    background-color: #303030;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    box-shadow: 6px 6px 19px #000000;
+}
+
+@media(max-width:1000px){
+    #sobre{
+        display: flex;
+        flex-direction: column;
+    }
 }
